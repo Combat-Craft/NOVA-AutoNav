@@ -9,7 +9,7 @@ This is a ROS2 Python package that reads raw NMEA GPS data from a Neo-M9N GPS mo
 ```bash
 mkdir -p ~/gps_ws/src
 cd ~/gps_ws/src
-git clone https://github.com/your-username/gps_package.git
+git clone https://github.com/Combat-Craft/NOVA-AutoNav.git
 cd ..
 colcon build --packages-select gps_package
 source install/local_setup.bash
